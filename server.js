@@ -9,10 +9,14 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 mongoose.connect('mongodb://localhost/simple-login');
 
+app.post('/users', function (req, res) {
+  console.log('request body: ', req.body);
+  res.json("it worked!");
+});
 
 // signup route with placeholder response
 app.get('/signup', function (req, res) {
-  res.send('signup coming soon');
+  res.render('signup');
 });
 
 // login route with placeholder response
