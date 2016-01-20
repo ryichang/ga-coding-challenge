@@ -1,0 +1,26 @@
+{
+  "name": "front-end",
+  "version": "1.0.0",
+  "description": "GA is designing a new site for K-12 learners to access GA courses and content. Use CSS, HTML, and JavaScript to develop a responsive navbar with login/logout. You can start with the code in index.html or create your own project.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryichang/ga-coding-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryichang/ga-coding-challenge/issues"
+  },
+  "homepage": "https://github.com/ryichang/ga-coding-challenge#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "mongoose": "^4.3.6"
+  }
+}
